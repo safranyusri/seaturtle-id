@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: hidden;
+    background: url(http://localhost/penyu/img/bg-pattern.png),#332a07;
+    background: url(http://localhost/penyu/img/bg-pattern.png),-webkit-linear-gradient(to left,#332a07,#000000);
+    background: url(http://localhost/penyu/img/bg-pattern.png),linear-gradient(to left,#332a07,#000000);
+    color: #fff;
+}
+
+.bg-primary {
+    background: #000000;
+    background: -webkit-linear-gradient(#332a07,#000000);
+    background: linear-gradient(#332a07,#000000);
+}
+
+.bg-secondary {
+    background: url(http://localhost/penyu/img/bg-pattern.png),#ad7d05;
+    background: url(http://localhost/penyu/img/bg-pattern.png),-webkit-linear-gradient(#ad7d05,#fff);
+    background: url(http://localhost/penyu/img/bg-pattern.png),linear-gradient(#ad7d05,#fff);
+}
+section {
+    padding: 50px 0;
+}
+section.features .section-heading {
+    margin-bottom: 20px;
+}
+section.cta {
+    padding: 50px 0;
+}
+.cta-content {
+    color: #fff;
+}
