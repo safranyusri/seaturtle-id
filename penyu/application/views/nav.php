@@ -19,7 +19,10 @@
                     <li>
                         <a class="page-scroll" href="<?php echo base_url()?>welcome/characters">Identification by Characters</a>
                     </li>
+                <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a class="page-scroll" href="<?php echo base_url()?>allspecies/">Visual</a>
+                    </li>                    <li>
                         <a class="page-scroll" href="<?php echo base_url()?>welcome/table">Characters Table</a>
                     </li>
                 </ul>

@@ -168,7 +168,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <a href="#key" class="btn btn-outline btn-xl page-scroll"><i class="icon-eye text-primary"></i></a>
+                                    <a href="<?php echo base_url()?>allspecies/" class="btn btn-outline btn-xl page-scroll"><i class="icon-eye text-primary"></i></a>
                                     <h3>Visual</h3>
                                     <p class="text-muted">Browse all type of characters based on pictures available in the database</p>
                                 </div>
